@@ -10,7 +10,7 @@ model = EncoderDecoderModel.from_pretrained(
 kwargs = {
     "max_length": 200,
     "num_beams": 2,
-    "repetition_penalty": 5,
+    "repetition_penalty": 2.5,
     "length_penalty": 1.0,
     "early_stopping": True,
     "no_repeat_ngram_size": 5,
